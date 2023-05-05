@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #D9D9D9;
+    overflow-x: hidden;
+}
+.container{
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 2em;
+}
+
+.nav-bar{
+    padding: .5em;
+    color: white;
+    background-color: black;
+    position: sticky;
+    width: 100%;
+    font-size: 1.4em;
+}
+
+.search-bar{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1em;
+    row-gap: 10px;
+}
+
+input{
+    width: auto;
+    padding: 1em;
+    height: 2.5 em;
+    flex-grow: 1;
+}
+
+button{
+    background-color: black;
+    font-size: 1.4em;
+    padding: .2em;
+    color: white;
+    width: 10em;
+}   
+
+.buttons-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1em;
+    /* padding: .2em; */
+}
+
+table{
+    width:98%;
+    border: solid black 2px;
+    font-size: 1.4em;
+    margin: 0.8em;
+    box-sizing: border-box;
+    /* margin-bottom: 10em; */
+}
+
+table td, table th {
+    text-align: center;
+    padding: 0.2em;
+}
+
+table td:nth-child(2){
+    text-align: left;
+}
+
+td img{
+    border: solid black 1px;
+    border-radius: 50%;
+    scale: 0.6  ;
+}
+
+
+#name-column{
+    display: flex !important;
+    align-items: center;
+}
+
+
